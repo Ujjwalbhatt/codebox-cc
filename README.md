@@ -64,7 +64,7 @@ npx webflow library share
 ### Step 2: Add the Component to Your Page
 
 1. Open the **Components panel** by clicking the Components icon in the left sidebar.
-2. Scroll to the section for the library you just installed. You should see the **CodeBox** component listed under the **Content** group.
+2. Scroll to the section for the library you just installed. You should see the **CodeBox** component listed under the **CodeCompV1** group.
 3. Click and drag the CodeBox component from the components panel onto your page.
 
 ### Step 3: Customize the Component
@@ -152,15 +152,4 @@ This is a Webflow code component library built with React and TypeScript. The co
 
 ## Resources
 
-- [Webflow Code Components Documentation](https://webflow.com/docs/code-components)
-- [Define a Code Component](https://webflow.com/docs/code-components/define-code-component)
-- [Prop Types Reference](https://webflow.com/docs/code-components/reference/prop-types)
-- [Webflow CLI Reference](https://webflow.com/docs/code-components/reference/cli)
-
-## License
-
-[Add your license information here]
-
-## Support
-
-[Add support information or contact details here]
+- [Webflow Code Components Documentation](https://developers.webflow.com/code-components/introduction)
