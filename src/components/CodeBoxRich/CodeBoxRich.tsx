@@ -5,7 +5,7 @@ import { css } from '@codemirror/lang-css';
 import { html } from '@codemirror/lang-html';
 import { python } from '@codemirror/lang-python';
 import { oneDark } from '@codemirror/theme-one-dark';
-import { CodeBoxRichProps } from '../../types';
+import { CodeBoxRichProps } from './types';
 import '../../styles/index.css';
 import './CodeBoxRich.css';
 

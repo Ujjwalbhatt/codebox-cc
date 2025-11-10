@@ -7,4 +7,3 @@ export interface CodeBoxRichProps {
   maxHeight?: number;
   width?: string;
 }
-
