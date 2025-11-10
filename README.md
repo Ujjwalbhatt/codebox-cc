@@ -28,7 +28,7 @@ Before installing this component, make sure you have:
 
 ```bash
 git clone <repository-url>
-cd code-components
+cd codebox-cc
 ```
 
 Or download the repository as a ZIP file and extract it.
