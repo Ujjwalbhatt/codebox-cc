@@ -60,6 +60,7 @@ The Webflow CLI will:
 
 - **Upload your library to your Workspace**
 
+> **Note:** If you want to change workspaces, simply update the authentication token key in your `.env` file and run `npx webflow library share` again.
 
 ## Using the Component in Webflow
 
