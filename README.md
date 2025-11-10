@@ -27,7 +27,7 @@ Before installing this component, make sure you have:
 ### Step 1: Clone or Download the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ujjwalbhatt/codebox-cc.git
 cd codebox-cc
 ```
 
