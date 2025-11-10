@@ -55,13 +55,3 @@ Desktop.ini
 
 # Webflow CLI
 .webflow/
-
-# Note: Critical files that should NOT be ignored:
-# - src/ (all source code)
-# - package.json
-# - package-lock.json
-# - webflow.json
-# - README.md
-# - .gitignore
-# - tsconfig.json (if exists)
-# - Any configuration files
