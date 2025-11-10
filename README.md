@@ -52,12 +52,21 @@ In your terminal, run the following command to upload your library to Webflow:
 npx webflow library share
 ```
 
+The Webflow CLI will:
+
+- **Authorize your workspace:** The CLI will check for a Workspace authentication token in your `.env` file. If one is not found, the CLI will prompt you to authenticate by opening a browser window to the Workspace authorization page. **Authorize a workspace to continue.**
+
+- **Bundle your library:** The CLI will bundle your library, and ask you to confirm the components you want to share.
+
+- **Upload your library to your Workspace**
+
+
 ## Using the Component in Webflow
 
 ### Step 1: Install the Library on Your Webflow Site
 
 1. Open any Webflow site in your workspace.
-2. Open the **Libraries panel** by pressing `L` or clicking the Resources icon in the left sidebar.
+2. Open the **Libraries panel** by pressing `L` or clicking the Libraries icon in the left sidebar.
 3. Find your library in the list of available libraries.
 4. Install the library by clicking the **Install** icon next to your library.
 
