@@ -1,0 +1,17 @@
+{
+  "library": {
+    "name": "<FreshCompV1>",
+    "components": [
+      "./src/**/*.webflow.@(js|jsx|mjs|ts|tsx)"
+    ],
+    "description": "",
+    "id": "freshcompv1"
+  },
+  "telemetry": {
+    "global": {
+      "allowTelemetry": false,
+      "lastPrompted": 1762812666873,
+      "version": "1.8.49"
+    }
+  }
+}

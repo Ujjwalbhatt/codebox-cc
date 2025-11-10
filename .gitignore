@@ -1,23 +1,67 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
+# Dependencies
+node_modules/
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
-# production
+# Build outputs
 /build
+/dist
+*.tsbuildinfo
 
-# misc
-.DS_Store
+# Testing
+/coverage
+.nyc_output
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Webflow CLI
+.webflow/
+
+# Note: Critical files that should NOT be ignored:
+# - src/ (all source code)
+# - package.json
+# - package-lock.json
+# - webflow.json
+# - README.md
+# - .gitignore
+# - tsconfig.json (if exists)
+# - Any configuration files
