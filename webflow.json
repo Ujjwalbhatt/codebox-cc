@@ -1,6 +1,6 @@
 {
   "library": {
-    "name": "<FreshCompV1>",
+    "name": "CodeCompV1",
     "components": [
       "./src/**/*.webflow.@(js|jsx|mjs|ts|tsx)"
     ],
