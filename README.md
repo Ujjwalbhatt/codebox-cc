@@ -1,6 +1,6 @@
 # CodeBoxRich - Webflow Code Component
 
-A beautiful code display component with syntax highlighting and copy functionality for Webflow. Built with React and CodeMirror, this component allows you to showcase code snippets with support for multiple languages, themes, and customizable styling in webflow designer panel.
+A beautiful code display component with syntax highlighting and copy functionality for Webflow. Built with React and CodeMirror, this component allows you to showcase code snippets with support for multiple languages, themes, and customizable styling in webflow designer panel using a webflow richtext field prop.
 
 ## Features
 
